@@ -1,5 +1,11 @@
 const minhaLista = [10,20,30]
+const mairQueDez = minhaLista.filter(item=>item>10)
 
-alert("Trouxao")
+console.log(mairQueDez)
 
-console.log("eai")
+function Ola(){
+    console.log("ola")
+    return true
+}
+
+Ola()
